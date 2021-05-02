@@ -1,0 +1,27 @@
+Sr. No.,Model,Accuracy based on confusion matrix,F1 Score (micro),F1 Score (macro),AUC Score
+1,Baseline model trained with input shape of 28*28 flattened at the beginning of the model,0.9682,0.9682,0.967886573,0.982254057
+2,Baseline model trained with flatenned input and reduced dimensionality (45 dimensions),0.9669,0.9669,0.966683692,0.981478589
+1a,Test Dataset 1 ( With Most Bias Model),0.9045,0.9045,0.904071824,0.946242106
+1b,Test Dataset 1 ( With Least Bias Model),0.9045,0.9045,0.904071824,0.946242106
+1c,Test Dataset 1 ( With Combined Model using Sum Probabilities),0.9045,0.9045,0.904071824,0.946242106
+1d,Test Dataset 1 ( With Combined Model using Average Probabilities),0.9045,0.9045,0.904071824,0.946242106
+2a,Test Dataset 1 ( With Most Bias Model),0.9125,0.9125,0.912315983,0.951172287
+2b,Test Dataset 1 ( With Least Bias Model),0.9275,0.9275,0.927277328,0.959636817
+2c,Test Dataset 1 ( With Combined Model using Sum Probabilities),0.941,0.941,0.94078069,0.967036103
+2d,Test Dataset 1 ( With Combined Model using Average Probabilities),0.941,0.941,0.94078069,0.967036103
+3a,Test Dataset 1 ( With Most Bias Model),0.9315,0.9315,0.930604997,0.960995438
+3b,Test Dataset 1 ( With Least Bias Model),0.9405,0.9405,0.939723813,0.96678324
+3c,Test Dataset 1 ( With Combined Model using Sum Probabilities),0.9535,0.9535,0.952756291,0.973813091
+3d,Test Dataset 1 ( With Combined Model using Average Probabilities),0.9535,0.9535,0.952756291,0.973813091
+4a,Test Dataset 1 ( With Most Bias Model),0.9535,0.9535,0.953447422,0.973838407
+4b,Test Dataset 1 ( With Least Bias Model),0.945,0.945,0.944453137,0.969327788
+4c,Test Dataset 1 ( With Combined Model using Sum Probabilities),0.971,0.971,0.970656699,0.983721632
+4d,Test Dataset 1 ( With Combined Model using Average Probabilities),0.971,0.971,0.970656699,0.983721632
+5a,Test Dataset 1 ( With Most Bias Model),0.941,0.941,0.939778761,0.966935449
+5b,Test Dataset 1 ( With Least Bias Model),0.955,0.955,0.953816203,0.974275562
+5c,Test Dataset 1 ( With Combined Model using Sum Probabilities),0.9645,0.9645,0.963684342,0.979977234
+5d,Test Dataset 1 ( With Combined Model using Average Probabilities),0.9645,0.9645,0.963684342,0.979977234
+6a,Full Test Dataset ( With Most Bias Model),0.9332,0.9332,0.93274631,0.962377012
+6b,Full Test Dataset ( With Least Bias Model),0.9332,0.9332,0.93274631,0.962377012
+6c,Full Test Dataset ( With Combined Model using Sum Probabilities),0.9332,0.9332,0.93274631,0.962377012
+6d,Full Test Dataset ( With Combined Model using Average Probabilities),0.9332,0.9332,0.93274631,0.962377012

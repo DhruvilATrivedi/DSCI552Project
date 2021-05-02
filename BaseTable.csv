@@ -1,0 +1,8 @@
+Sr. No.,Model,Accuracy based on confusion matrix,F1 Score (micro),F1 Score (macro),AUC Score
+1,Baseline model trained with input shape of 28*28 flattened at the beginning of the model,0.9682,0.9682,0.967886573,0.982254057
+2,Baseline model trained with flatenned input and reduced dimensionality (45 dimensions),0.9669,0.9669,0.966683692,0.981478589
+3,Baseline model trained with flatenned input and reduced dimensionality (10 dimensions),0.9191,0.9191,0.917695938,0.954331386
+4,Baseline model trained with flatenned input and reduced dimensionality (20 dimensions),0.9637,0.9637,0.963498773,0.979652259
+5,Baseline model trained with flatenned input and reduced dimensionality (25 dimensions),0.9639,0.9639,0.963582698,0.979752077
+6,Baseline model trained with flatenned input and reduced dimensionality (40 dimensions),0.9651,0.9651,0.964960833,0.98048277
+7,Baseline model trained with flatenned input and reduced dimensionality (50 dimensions),0.9668,0.9668,0.966459696,0.981330144
